@@ -82,7 +82,7 @@ export const APPS: App[] = [
     tagline: "Dashboard de un portafolio de inversión en Interactive Brokers.",
     description:
       "Lee los reportes de transacciones de Interactive Brokers y muestra posiciones, costo promedio con comisiones, dividendos, histórico mensual y la comparación contra el S&P 500.",
-    status: "personal",
+    status: "live",
     accent: "#e5d283",
     stack: ["Python", "Flask", "Chart.js"],
     highlights: [
@@ -90,7 +90,8 @@ export const APPS: App[] = [
       "Dividendos por ticker y por trimestre, con retenciones.",
       "Rentabilidad mensual comparada contra VOO.",
     ],
-    repo: "https://github.com/akirintxa/ib-tracker",
+    // Repo privado y app con contraseña: sin enlace al código.
+    url: "https://ib.losqq.com",
   },
   {
     slug: "calculo-ftp",
