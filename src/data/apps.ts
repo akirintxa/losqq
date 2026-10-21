@@ -3,7 +3,7 @@ export const GITHUB_URL = "https://github.com/akirintxa";
 export type AppStatus = "live" | "building" | "personal" | "prototype";
 
 export const STATUS_LABELS: Record<AppStatus, string> = {
-  live: "En vivo",
+  live: "Activa",
   building: "En construcción",
   personal: "Uso personal",
   prototype: "Prototipo",
@@ -65,7 +65,7 @@ export const APPS: App[] = [
     tagline: "Comparador de precios de supermercados y farmacias en Venezuela.",
     description:
       "Encuentra qué establecimiento tiene el precio más bajo para cualquier producto, con precios con IVA incluido y conversión entre dólares y bolívares a tasa BCV.",
-    status: "building",
+    status: "live",
     accent: "#219ebc",
     stack: ["Next.js", "Tailwind CSS", "TypeScript"],
     highlights: [
@@ -73,6 +73,7 @@ export const APPS: App[] = [
       "Búsqueda que detecta marca y presentación.",
       "Precios en USD y Bs. con la tasa oficial del día.",
     ],
+    url: "https://mercadata.losqq.com",
     repo: "https://github.com/akirintxa/mercadata",
   },
   {
