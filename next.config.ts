@@ -23,7 +23,7 @@ const nextConfig: NextConfig = {
   async redirects() {
     return QUINIELA_PATHS.map((source) => ({
       source,
-      destination: `${QUINIELA_URL}${source.replace(/\/:path\*$/, "/:path*")}`,
+      destination: `${QUINIELA_URL}${source}`,
       permanent: true,
     }));
   },
