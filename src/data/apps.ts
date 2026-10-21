@@ -97,10 +97,11 @@ export const APPS: App[] = [
     name: "Calculadora FTP",
     tagline: "Zonas de potencia para ciclismo a partir de tu FTP.",
     description: "Ingresa tu FTP y obtén tus zonas de entrenamiento en watts.",
-    status: "prototype",
+    status: "live",
     accent: "#fb8500",
     stack: ["HTML", "CSS", "JavaScript"],
     highlights: ["Calcula las zonas al instante, sin registro."],
+    url: "https://ftp.losqq.com",
     repo: "https://github.com/akirintxa/calculo-ftp",
   },
 ];
