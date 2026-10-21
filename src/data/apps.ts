@@ -48,8 +48,7 @@ export const APPS: App[] = [
       "Pronósticos que se cierran 30 minutos antes de cada partido.",
       "Marcadores sincronizados y ranking actualizado en tiempo real.",
     ],
-    // Cambiar a https://quiniela.losqq.com cuando la quiniela se mude (fase 2).
-    url: "https://www.losqq.com",
+    url: "https://quiniela.losqq.com",
     repo: "https://github.com/akirintxa/app-quiniela",
     tournaments: [
       {
