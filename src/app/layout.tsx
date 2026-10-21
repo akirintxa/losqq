@@ -29,8 +29,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
-      <body className={`${urbanist.variable} ${stackNotch.variable} font-sans antialiased`}>
+    <html lang="es" className={`${urbanist.variable} ${stackNotch.variable}`}>
+      <body className="font-sans antialiased">
         <div className="mx-auto max-w-6xl px-6">
           <SiteHeader />
           {children}
